@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  /* margin-left: 15px; */
   background-color: #3c3a39;
   color: white;
 }
@@ -80,11 +80,15 @@ header {
 
 .navbar a.navbar-brand {
   line-height: inherit;
-  /* padding: 0 30px; */
+  /* padding: 0 20px; */
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+.navbar #logo {
+  padding-left: 7px;
 }
 
 .navbar ul {
@@ -96,7 +100,7 @@ header {
   padding: 0;
   background-color: rgba(0,0,0,0.9);
   /* height: auto; */
-  height: 100vh;
+  height: 60vh;
   max-height: 0;
   overflow: hidden;
   transition: all ease-in-out 0.3s;
@@ -107,6 +111,7 @@ header {
 .navbar ul li a {
   display: block;
   text-align: center;
+  width: 100%;
   min-width: 120px;
   padding: 0 30px;
 }
@@ -126,13 +131,15 @@ header {
   width: 100%;
   /* border-bottom: 1px solid rgba(255,255,255,0.3); */
 }
-.navbar ul li a {
+
+/* .navbar ul li a {
   padding: 0;
-}
+} */
+
 .navbar .navbar-toggler {
   display: block;
   position: absolute;
-  height: 40px;
+  /* height: 40px; */
   top: 20px;
   right: 20px;
   background-color: transparent;
@@ -141,16 +148,13 @@ header {
   /* border: none; */
   /* border-radius: 4px; */
   outline: none;
-  padding: 0 5px;
+  padding: 8px;
   cursor: pointer;
 }
 
-
-.menu-bars i.fa-times {
+.navbar-toggler .fa-times {
   display: none;
 }
-
-
 
 main {
   display: flex;
