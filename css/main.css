@@ -87,8 +87,8 @@ header {
   letter-spacing: 2px;
 }
 
-.navbar #logo {
-  padding-left: 7px;
+.navbar h1 {
+  padding-left: 20px;
 }
 
 .navbar ul {
@@ -111,8 +111,8 @@ header {
 .navbar ul li a {
   display: block;
   text-align: center;
-  width: 100%;
   min-width: 120px;
+  width: 100%;
   padding: 0 30px;
 }
 .navbar ul li a:hover {
@@ -123,6 +123,8 @@ header {
   display: none;
 }
 
+
+
 .navbar ul.open {
   max-height: 100vh;
 }
@@ -131,11 +133,9 @@ header {
   width: 100%;
   /* border-bottom: 1px solid rgba(255,255,255,0.3); */
 }
-
 /* .navbar ul li a {
   padding: 0;
 } */
-
 .navbar .navbar-toggler {
   display: block;
   position: absolute;
@@ -152,9 +152,11 @@ header {
   cursor: pointer;
 }
 
+
 .navbar-toggler .fa-times {
   display: none;
 }
+
 
 main {
   display: flex;
@@ -664,25 +666,26 @@ textarea {
     width: 3vw;
     height: 32px;
   }
-}
 
-.navbar {
-  display: none;
-}
+  .navbar {
+    display: none;
+  }
 
-header {
-  display: block;
-}
+  header {
+    display: block;
+  }
 
-#desktop-nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
+  #desktop-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-#desktop-nav ul {
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  #desktop-nav ul {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+
 }
