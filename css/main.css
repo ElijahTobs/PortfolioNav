@@ -22,7 +22,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-left: 15px; */
   background-color: #3c3a39;
   color: white;
 }
@@ -56,7 +55,6 @@ header {
 }
 
 .navbar {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   background-color: #000;
@@ -80,7 +78,6 @@ header {
 
 .navbar a.navbar-brand {
   line-height: inherit;
-  /* padding: 0 20px; */
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 400;
@@ -93,21 +90,20 @@ header {
 
 .navbar ul {
   width: 100%;
-  /* float: right; */
   list-style: none;
-  /* height: inherit; */
   line-height: inherit;
   padding: 0;
   background-color: rgba(0,0,0,0.9);
-  /* height: auto; */
   height: 60vh;
   max-height: 0;
   overflow: hidden;
   transition: all ease-in-out 0.3s;
 }
+
 .navbar ul li {
   display: inline-block;
 }
+
 .navbar ul li a {
   display: block;
   text-align: center;
@@ -123,35 +119,26 @@ header {
   display: none;
 }
 
-
-
 .navbar ul.open {
   max-height: 100vh;
 }
 
 .navbar ul li {
   width: 100%;
-  /* border-bottom: 1px solid rgba(255,255,255,0.3); */
 }
-/* .navbar ul li a {
-  padding: 0;
-} */
+
 .navbar .navbar-toggler {
   display: block;
   position: absolute;
-  /* height: 40px; */
   top: 20px;
   right: 20px;
   background-color: transparent;
   color: #fff;
   border: 3px solid #fff;
-  /* border: none; */
-  /* border-radius: 4px; */
   outline: none;
   padding: 8px;
   cursor: pointer;
 }
-
 
 .navbar-toggler .fa-times {
   display: none;
@@ -555,11 +542,6 @@ textarea {
     display: block;
   }
 
-  /* #desktop-nav ul {
-    display: flex;
-    margin-right: 10vw;
-  } */
-
   .nav-link {
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -685,7 +667,5 @@ textarea {
   #desktop-nav ul {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
   }
-
 }
